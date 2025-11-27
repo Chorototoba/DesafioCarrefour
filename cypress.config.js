@@ -5,7 +5,7 @@ const cloudProjectId =
   process.env.CYPRESS_PROJECT_ID || 'set-your-cypress-cloud-project-id';
 
 module.exports = defineConfig({
-  projectId: cloudProjectId,
+  projectId: "zh98f6",
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here

@@ -1,0 +1,14 @@
+# Cypress Cloud configuration
+# Preencha projectId e a chave de gravação via variáveis de ambiente no CI.
+projectId: "SET_ME"
+
+record: true
+
+video: true
+screenshotOnRunFailure: true
+
+env:
+  # Exemplo de config extra de env se precisar (remova se não usar)
+  NODE_ENV: "test"
+
+reporter: "spec"
